@@ -1,0 +1,2 @@
+# informatorio
+ejercicos el informatorio
