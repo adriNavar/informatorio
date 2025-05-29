@@ -25,7 +25,7 @@ def limpiar():
 
 ventana = tk.Tk() 
 ventana.title("Calculadora Piola")  
-ventana.geometry("400x300")  
+ventana.geometry("700x300")  
 
 entrada1 = tk.StringVar()  
 entrada2 = tk.StringVar()  
@@ -34,7 +34,7 @@ resultado_var = tk.StringVar()
 tk.Label(ventana, text="Ingresa el primer numero Loco:").pack(pady=5)
 tk.Entry(ventana, textvariable=entrada1, font=("Arial", 14), justify="center").pack()
 
-tk.Label(ventana, text="Ingresa el  segundo numero Loco:").pack(pady=5)
+tk.Label(ventana, text="Ingresa el  segundo numero Locoo:").pack(pady=5)
 tk.Entry(ventana, textvariable=entrada2, font=("Arial", 14), justify="center").pack()
 
 tk.Label(ventana, text="Elegi operacion Maquina:").pack(pady=10)
